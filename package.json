@@ -1,5 +1,11 @@
 {
   "private": true,
+  "engines": {
+    "node": ">=18",
+    "npm": "please-use-pnpm",
+    "yarn": "please-use-pnpm",
+    "pnpm": ">=8"
+  },
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
