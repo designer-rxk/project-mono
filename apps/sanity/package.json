@@ -1,5 +1,5 @@
 {
-  "name": "@project-mono/studio",
+  "name": "@mono/studio",
   "private": true,
   "version": "1.0.0",
   "main": "package.json",

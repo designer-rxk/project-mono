@@ -1,4 +1,4 @@
-import "@project-mono/ui/src/styles/globals.css";
+import "@mono/ui";
 
 import type { AppProps } from "next/app";
 

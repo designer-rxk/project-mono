@@ -1,5 +1,5 @@
 {
-  "name": "@project-mono/storefront",
+  "name": "@mono/web",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -12,7 +12,7 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@project-mono/ui": "workspace:*",
+    "@mono/ui": "workspace:*",
     "configs": "workspace:*",
     "next": "latest",
     "react": "^18.2.0",

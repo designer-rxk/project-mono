@@ -1,5 +1,5 @@
 import type { Preview } from '@storybook/react'
-import "@project-mono/ui/src/styles/globals.css"
+import "@mono/ui/src/styles/globals.css"
 
 const preview: Preview = {
   parameters: {

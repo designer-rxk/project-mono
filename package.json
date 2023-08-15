@@ -20,5 +20,5 @@
     "turbo": "latest"
   },
   "packageManager": "pnpm@7.15.0",
-  "name": "project-mono"
+  "name": "@mono/project-mono"
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navigation } from '../navigation';
+import { Navigation } from '@pages/navigation';
 
 export default function AboutUs() {
     return (
