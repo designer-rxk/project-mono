@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { Button } from '@mono/ui/index';
 
 const meta = {
-  title: 'Example/Button',
+  title: 'Atoms/Button',
   component: Button,
 } satisfies Meta<typeof Button>;
 
