@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { Button } from '@mono/ui/index';
+import { Button } from '@mono/ui';
 
 const meta = {
   title: 'Atoms/Button',

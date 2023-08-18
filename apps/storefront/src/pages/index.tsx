@@ -1,5 +1,5 @@
-import { Button } from "@mono/ui";
-import { Navigation } from "./navigation";
+import { Button } from '@mono/ui';
+import { Navigation } from '@mono/components';
 
 export default function Home() {
   return (
