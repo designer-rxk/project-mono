@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "eslint": "^8.48.0",
-    "eslint-config-custom": "workspace:*",
+    "@mono/eslint-config": "workspace:*",
     "prettier": "^3.0.3",
     "turbo": "latest"
   },

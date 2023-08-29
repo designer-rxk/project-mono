@@ -12,13 +12,15 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
+    "@mono/tsconfig": "workspace:*",
     "@mono/ui": "workspace:*",
-    "configs": "workspace:*",
+    "@mono/configs": "workspace:*",
     "next": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@mono/eslint-config": "workspace:*",
     "@storybook/addon-essentials": "7.4.0",
     "@storybook/addon-interactions": "7.4.0",
     "@storybook/addon-links": "7.4.0",
@@ -33,7 +35,6 @@
     "autoprefixer": "^10.4.15",
     "concurrently": "^8.2.1",
     "eslint": "^8.48.0",
-    "eslint-config-custom": "workspace:*",
     "eslint-plugin-storybook": "^0.6.13",
     "postcss": "^8.4.29",
     "prettier-plugin-tailwindcss": "^0.5.3",
