@@ -1,4 +1,5 @@
 {
+  "name": "@mono/project-mono",
   "private": true,
   "engines": {
     "node": ">=18",
@@ -6,6 +7,7 @@
     "yarn": "please-use-pnpm",
     "pnpm": ">=8"
   },
+  "packageManager": "pnpm@7.15.0",
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel --no-cache --continue",
@@ -18,7 +20,5 @@
     "@mono/eslint-config": "workspace:*",
     "prettier": "^3.0.3",
     "turbo": "latest"
-  },
-  "packageManager": "pnpm@7.15.0",
-  "name": "@mono/project-mono"
+  }
 }

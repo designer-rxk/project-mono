@@ -1,7 +1,8 @@
 {
   "name": "@mono/web",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "private": true,
+  "license": "UNLICENSED",
   "scripts": {
     "dev": "concurrently \"pnpm run dev:next\" \"pnpm run dev:storybook\"",
     "dev:next": "next dev",
@@ -12,15 +13,14 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@mono/tsconfig": "workspace:*",
     "@mono/ui": "workspace:*",
-    "@mono/configs": "workspace:*",
     "next": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@mono/eslint-config": "workspace:*",
+    "@mono/tsconfig": "workspace:*",
     "@storybook/addon-essentials": "7.4.0",
     "@storybook/addon-interactions": "7.4.0",
     "@storybook/addon-links": "7.4.0",
@@ -40,7 +40,6 @@
     "prettier-plugin-tailwindcss": "^0.5.3",
     "storybook": "7.4.0",
     "tailwindcss": "^3.3.3",
-    "tsconfig": "workspace:*",
     "typescript": "^5.2.2"
   }
 }
