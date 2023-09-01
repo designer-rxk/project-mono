@@ -4,11 +4,10 @@ import { visionTool } from '@sanity/vision';
 import { schemaTypes } from './schemas';
 
 export default defineConfig({
-  name: 'default',
   title: 'project-mono',
 
-  projectId: 'ww63veng',
-  dataset: 'production',
+  projectId: import.meta.env.SANITY_STUDIO_PROJECT_ID ?? '',
+  dataset: import.meta.env.SANITY_STUDIO_DATASET ?? '',
 
   plugins: [deskTool(), visionTool()],
 
