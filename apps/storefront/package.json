@@ -1,11 +1,10 @@
 {
   "name": "@mono/web",
+  "main": "package.json",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "concurrently \"pnpm run dev:next\" \"pnpm run dev:storybook\"",
-    "dev:next": "next dev",
-    "dev:storybook": "storybook dev -p 6006",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -13,33 +12,25 @@
   },
   "dependencies": {
     "@mono/ui": "workspace:*",
-    "configs": "workspace:*",
+    "@mono/eslint-config": "workspace:*",
+    "@mono/tsconfig": "workspace:*",
+    "@mono/configs": "workspace:*",
+    "@mono/styles": "workspace:*",
     "next": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@storybook/addon-essentials": "7.4.0",
-    "@storybook/addon-interactions": "7.4.0",
-    "@storybook/addon-links": "7.4.0",
-    "@storybook/addon-onboarding": "1.0.8",
-    "@storybook/blocks": "7.4.0",
-    "@storybook/react": "7.4.0",
-    "@storybook/react-vite": "7.4.0",
-    "@storybook/testing-library": "0.2.0",
     "@types/node": "^20.5.7",
     "@types/react": "^18.2.21",
     "@types/react-dom": "^18.2.7",
     "autoprefixer": "^10.4.15",
     "concurrently": "^8.2.1",
     "eslint": "^8.48.0",
-    "eslint-config-custom": "workspace:*",
     "eslint-plugin-storybook": "^0.6.13",
     "postcss": "^8.4.29",
     "prettier-plugin-tailwindcss": "^0.5.3",
-    "storybook": "7.4.0",
     "tailwindcss": "^3.3.3",
-    "tsconfig": "workspace:*",
     "typescript": "^5.2.2"
   }
 }

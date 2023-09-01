@@ -1,5 +1,13 @@
 {
-  "name": "configs",
+  "name": "@mono/configs",
   "version": "0.0.0",
-  "private": true
+  "private": true,
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "./tailwind/postcss.config.js",
+    "./tailwind/tailwind.config.js"
+  ]
 }

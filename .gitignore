@@ -36,10 +36,4 @@ build
 .vercel
 
 # VSCode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-.turbo
-.vercel
+.vscode

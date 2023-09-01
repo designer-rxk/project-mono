@@ -1,3 +1,5 @@
+import '@mono/styles';
+
 export const ArticleCard = () => {
   return (
     <div className="bg-[pink]">

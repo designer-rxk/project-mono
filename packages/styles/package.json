@@ -1,0 +1,9 @@
+{
+  "name": "@mono/styles",
+  "version": "0.0.1",
+  "main": "globals.css",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}

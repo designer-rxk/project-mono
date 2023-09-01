@@ -4,15 +4,30 @@
   "main": "index.ts",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint \"**/*.ts*\""
+    "lint": "eslint \"**/*.ts*\"",
+    "dev": "storybook dev -p 6006"
+  },
+  "dependencies": {
+    "@mono/configs": "workspace:*",
+    "@mono/eslint-config": "workspace:*",
+    "@mono/tsconfig": "workspace:*",
+    "@mono/styles": "workspace:*"
   },
   "devDependencies": {
+    "@storybook/addon-essentials": "7.4.0",
+    "@storybook/addon-interactions": "7.4.0",
+    "@storybook/addon-links": "7.4.0",
+    "@storybook/addon-onboarding": "1.0.8",
+    "@storybook/blocks": "7.4.0",
+    "@storybook/react": "7.4.0",
+    "@storybook/react-vite": "7.4.0",
+    "@storybook/testing-library": "0.2.0",
     "@types/react": "^17.0.37",
     "@types/react-dom": "^17.0.11",
     "eslint": "^7.32.0",
-    "eslint-config-custom": "workspace:*",
-    "react": "^17.0.2",
-    "tsconfig": "workspace:*",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "7.4.0",
     "typescript": "^5.1.6"
   }
 }

@@ -1,5 +1,8 @@
 {
+  "name": "@mono/project-mono",
+  "version": "0.1.0",
   "private": true,
+  "packageManager": "pnpm@7.15.0",
   "engines": {
     "node": ">=18",
     "npm": "please-use-pnpm",
@@ -14,11 +17,14 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
+    "@mono/eslint-config": "workspace:*",
     "eslint": "^8.48.0",
-    "eslint-config-custom": "workspace:*",
     "prettier": "^3.0.3",
     "turbo": "latest"
   },
-  "packageManager": "pnpm@7.15.0",
-  "name": "@mono/project-mono"
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": ["typescript"]
+    }
+  }
 }
