@@ -18,7 +18,7 @@ const config: StorybookConfigFramework = {
     },
   },
 
-  stories: ['../src/components/**/**/*.stories.@(js|jsx|ts|tsx)'],
+  stories: ['../components/**/**/*.stories.@(js|jsx|ts|tsx)'],
 
   // Other global configuration options here
   addons: [
