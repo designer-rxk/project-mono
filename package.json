@@ -12,6 +12,9 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel --no-cache --continue",
+    "dev:web": "turbo run dev --filter=@mono/web",
+    "dev:studio": "turbo run dev --filter=@mono/studio",
+    "dev:ui": "turbo run dev --filter=@mono/ui",
     "storybook": "turbo run storybook",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
