@@ -3,11 +3,13 @@
   "include": ["."],
   "exclude": ["dist", "build", "node_modules"],
   "compilerOptions": {
+    "lib": ["dom", "esNext"],
     "jsx": "react-jsx",
     "strict": true,
     "baseUrl": ".",
     "paths": {
-      "@mono/components/*": ["components/*"]
+      "@mono/hooks": ["hooks/index.ts"],
+      "@mono/icons": ["components/icons/index.ts"]
     }
   }
 }

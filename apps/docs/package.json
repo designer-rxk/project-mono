@@ -10,8 +10,10 @@
   "dependencies": {
     "@mono/configs": "workspace:*",
     "@mono/eslint-config": "workspace:*",
+    "@mono/styles": "workspace:*",
     "@mono/tsconfig": "workspace:*",
-    "@mono/styles": "workspace:*"
+    "clsx": "^2.0.0",
+    "react-aria": "^3.27.0"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "7.4.0",
