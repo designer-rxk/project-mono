@@ -1,9 +1,9 @@
-import { WarningCircle } from '../../../components/icons';
+import { WarningCircle } from '@mono/icons';
 import clsx from 'clsx';
 import { forwardRef, useRef } from 'react';
 import { useTextField } from 'react-aria';
 
-import { useHasInputValue } from '../../../hooks';
+import { useHasInputValue } from '@mono/hooks';
 
 type Props = {
   label: string;

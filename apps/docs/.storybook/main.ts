@@ -1,4 +1,4 @@
-import type { StorybookConfig as StorybookConfigFramework } from '@storybook/react-vite';
+import { StorybookConfig as StorybookConfigFramework } from '@storybook/react-vite';
 
 import { join, dirname } from 'path';
 
@@ -27,6 +27,17 @@ const config: StorybookConfigFramework = {
     getAbsolutePath('@storybook/addon-onboarding'),
     getAbsolutePath('@storybook/addon-interactions'),
   ],
+
+  // Vite-specific configuration
+  viteFinal: (config) => {
+    // modify the Vite config here
+    config.resolve = config.resolve || {};
+    config.resolve.alias = config.resolve.alias || {};
+    config.resolve.alias['@mono/hooks'] = '../hooks';
+    config.resolve.alias['@mono/icons'] = '../components/icons';
+
+    return config;
+  },
 };
 
 export default config;
