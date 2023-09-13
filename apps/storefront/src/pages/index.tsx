@@ -1,4 +1,4 @@
-import { Button } from '@mono/ui';
+import { Button } from '@mono/docs';
 import { Navigation } from '@mono/components';
 
 export default function Home() {

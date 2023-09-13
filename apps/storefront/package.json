@@ -11,7 +11,7 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@mono/ui": "workspace:*",
+    "@mono/docs": "workspace:*",
     "@mono/eslint-config": "workspace:*",
     "@mono/tsconfig": "workspace:*",
     "@mono/configs": "workspace:*",
